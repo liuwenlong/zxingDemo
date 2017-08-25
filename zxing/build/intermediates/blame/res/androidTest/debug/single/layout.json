@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\help.xml",
+        "source": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\bundles\\debug\\res\\layout\\help.xml"
+    },
+    {
+        "merged": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\search_book_contents.xml",
+        "source": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\bundles\\debug\\res\\layout\\search_book_contents.xml"
+    },
+    {
+        "merged": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\app_picker_list_item.xml",
+        "source": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\bundles\\debug\\res\\layout\\app_picker_list_item.xml"
+    },
+    {
+        "merged": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\search_book_contents_list_item.xml",
+        "source": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\bundles\\debug\\res\\layout\\search_book_contents_list_item.xml"
+    },
+    {
+        "merged": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\search_book_contents_header.xml",
+        "source": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\bundles\\debug\\res\\layout\\search_book_contents_header.xml"
+    },
+    {
+        "merged": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\history_list_item.xml",
+        "source": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\bundles\\debug\\res\\layout\\history_list_item.xml"
+    },
+    {
+        "merged": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\share.xml",
+        "source": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\bundles\\debug\\res\\layout\\share.xml"
+    },
+    {
+        "merged": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\encode.xml",
+        "source": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\bundles\\debug\\res\\layout\\encode.xml"
+    },
+    {
+        "merged": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\capture.xml",
+        "source": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\bundles\\debug\\res\\layout\\capture.xml"
+    },
+    {
+        "merged": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\bookmark_picker_list_item.xml",
+        "source": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\bundles\\debug\\res\\layout\\bookmark_picker_list_item.xml"
+    }
+]

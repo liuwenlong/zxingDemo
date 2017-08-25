@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\history.xml",
+        "source": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\bundles\\debug\\res\\menu\\history.xml"
+    },
+    {
+        "merged": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\encode.xml",
+        "source": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\bundles\\debug\\res\\menu\\encode.xml"
+    },
+    {
+        "merged": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\capture.xml",
+        "source": "E:\\thirdSDK\\AMap_Android_Location\\AMap_Android_API_Location_Demo\\android_studio\\zxingDemo\\zxing\\build\\intermediates\\bundles\\debug\\res\\menu\\capture.xml"
+    }
+]

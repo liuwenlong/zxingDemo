@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\thirdSDK\AMap_Android_Location\AMap_Android_API_Location_Demo\android_studio\zxingDemo\zxing\src\main\shaders"/></dataSet><dataSet config="release"><source path="E:\thirdSDK\AMap_Android_Location\AMap_Android_API_Location_Demo\android_studio\zxingDemo\zxing\src\release\shaders"/></dataSet></merger>
