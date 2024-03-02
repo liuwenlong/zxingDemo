@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import android.app.Activity;
+import android.util.Log;
 
 import com.google.zxing.client.android.CaptureActivity;
 
@@ -38,6 +39,8 @@ public class MainActivity extends Activity {
         public void onReceive(Context context, Intent intent) {
             String barCode = intent.getStringExtra(CaptureActivity.ExtraDisplayContents);
             text.setText(barCode);
+
+            Log.d("MainActivity", "barCode="+barCode);
         }
     };
 }

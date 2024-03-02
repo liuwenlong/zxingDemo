@@ -64,6 +64,7 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import java.nio.charset.Charset;
 
 import java.io.IOException;
 import java.text.DateFormat;
@@ -444,12 +445,48 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
    * @param scaleFactor amount by which thumbnail was scaled
    * @param barcode   A greyscale bitmap of the camera data which was decoded.
    */
+
+  public static String byteToHex(byte[] buf){
+    String ret = "";
+
+    for (int n = 0; n < buf.length; n++) {
+      ret += byteToHex(buf[n]).toUpperCase()+",";
+    }
+
+    return ret;
+  }
+
+  public static String byteToHex(byte b){
+    String ret;
+
+    String hex = Integer.toHexString(b & 0XFF);
+
+    if(hex.length() == 1){
+      ret = "0" + hex;
+    }else{
+      ret = hex;
+    }
+
+    return ret;
+  }
+
   public void handleDecode(Result rawResult, Bitmap barcode, float scaleFactor) {
     inactivityTimer.onActivity();
     lastResult = rawResult;
     ResultHandler resultHandler = ResultHandlerFactory.makeResultHandler(this, rawResult);
 
-    CharSequence displayContents = resultHandler.getDisplayContents();
+    try {
+      byte[] buf = rawResult.getText().getBytes();
+
+      Log.d(TAG,"handleDecode codeType="+byteToHex(buf));
+      Log.d(TAG,"handleDecode codeType="+new String(buf, "UTF-8"));
+      Log.d(TAG,"handleDecode codeType="+new String(buf, "UTF-16"));
+      Log.d(TAG,"handleDecode codeType="+new String(buf, "GBK"));
+    } catch (Exception e) {
+      Log.e(TAG,"handleDecode e="+e);
+    }
+
+    CharSequence displayContents = rawResult.getText();
     if(TextUtils.isEmpty(displayContents) == false){
       beepManager.playBeepSound();
       sendBroadcast(new Intent(ActionDecodeContent).putExtra(ExtraDisplayContents,displayContents));
